@@ -81,7 +81,7 @@ function App() {
   return (
     <div className="bg-gray-300">
       {/* Header */}
-      <header className="bg-blue-600 p-6  text-white text-center">
+      <header className="bg-gray-800 p-6  text-white text-center">
         <h1 className="text-xl font-bold">Planeación Estratégica</h1>
       </header>
 
