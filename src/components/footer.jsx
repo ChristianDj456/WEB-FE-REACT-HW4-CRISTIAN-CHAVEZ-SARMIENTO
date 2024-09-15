@@ -5,9 +5,9 @@ import youtubeIcon from '../assets/youtubeIcon.svg';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 p-4 text-white text-center">
+    <footer className="bg-gray-800 p-4 text-white text-center sticky bottom-0 w-full">
       <p>&copy; 2024 By Cristian Chavez Sarmiento. All rights reserved.</p>
-      <p>Galaxy Buds3 Pro is a registered trademark of Samsung Electronics Co., Ltd.</p>
+
       <div className="flex justify-center space-x-4 mt-4">
         <a href="https://github.com/ChristianDj456" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} alt="GitHub" className="w-8 h-8" />
@@ -22,9 +22,26 @@ const Footer = () => {
           <img src={youtubeIcon} alt="YouTube" className="w-8 h-8" />
         </a>
       </div>
+
+      {/* Menú de navegación */}
+      <nav className="flex flex-col sm:flex-row sm:space-x-6 justify-center mt-4">
+        <a href="#introduction" className="text-lg hover:text-blue-400">
+          Introducción
+        </a>
+        <a href="#swot" className="text-lg hover:text-blue-400">
+          Diagnóstico
+        </a>
+        <a href="#orgIdentity" className="text-lg hover:text-blue-400">
+          Identidad
+        </a>
+        <a href="#goals" className="text-lg hover:text-blue-400">
+          Objetivos
+        </a>
+      </nav>
     </footer>
   );
 };
 
 export default Footer;
+
 

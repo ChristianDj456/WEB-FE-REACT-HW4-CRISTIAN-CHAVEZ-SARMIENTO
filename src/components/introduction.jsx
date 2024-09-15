@@ -1,10 +1,7 @@
-// src/components/Introduction.jsx
-import React from "react";
-
 const Introduction = () => {
   return (
     <section id="introduction" className="p-6">
-      <h1 className="text-xl font-bold text-center m-4">Introducción</h1>
+      <h1 className="text-xl font-bold text-center m-4">Samsung Galaxy Buds3 Pro</h1>
       <h3 className="text-center font-bold">Galaxy AI está aquí para tus nuevos Galaxy Buds3 Pro</h3>
       <p className="py-2">
         Los Galaxy Buds3 Pro ofrecen una experiencia de audio premium con
