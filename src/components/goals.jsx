@@ -1,5 +1,3 @@
-import React from 'react';
-
 const goals = [
   { id: 1000, goal: "Incrementar ventas globales en un 20%", target: 100000, progress: 25000, compliance: 25 },
   { id: 1001, goal: "Mejorar duración de batería en un 15%", target: 300, progress: 150, compliance: 50 },

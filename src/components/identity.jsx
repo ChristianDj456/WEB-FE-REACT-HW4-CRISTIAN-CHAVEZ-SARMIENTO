@@ -1,6 +1,3 @@
-// src/components/OrgIdentity.jsx
-import React from 'react';
-
 const OrgIdentity = () => {
   return (
     <section id="orgIdentity" className="p-6 bg-white rounded shadow-md">

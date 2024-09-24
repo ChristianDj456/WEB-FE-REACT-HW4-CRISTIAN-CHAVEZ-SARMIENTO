@@ -1,6 +1,3 @@
-// src/components/Diagnostic.jsx
-import React from 'react';
-
 const swotData = [
   {
     type: "Debilidades",
